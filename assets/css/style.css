@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.admin-panel {
+  display: flex;
+}
+
+.sidebar {
+  padding: 16px;
+  width: 20vw;
+  background-color: #94a3b8;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  gap: 16px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar-content {
+  display: grid;
+  gap: 60px;
+  padding: 32px;
+}
+
+.main {
+    padding: 32px;
+    width: 100%;
+}
+
+/* .main-header {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.main-header-top {
+    display: flex;
+    align-items: center;
+}
+
+.user-account {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    width: 80%;
+}
+
+.user-account {
+    display: flex;
+    gap: 16px;
+    margin: 32px 32px ;
+}
+
+.project {
+    padding: 16px;
+    box-shadow: 0px 0px 10px 0px gray;
+    border-radius: 5px;
+    border-left: solid gold;
+    width: 300px;
+    height: 200px;
+}
+
+.projects {
+  flex: 1 ;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content-right {
+  padding: 32px;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0px 0px 5px 0px gray;
+  margin-bottom: 16px;
+  padding-inline-start: 8px;
+}
+
